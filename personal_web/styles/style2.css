@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+body {
+  overflow-x: hidden;
+}
+body nav {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+body nav ul {
+  display: flex;
+}
+body nav ul li {
+  list-style-type: none;
+  margin: 1rem;
+}
+body nav ul li a {
+  color: black;
+  text-decoration: none;
+  transition: all 0.1s ease;
+}
+body nav ul li a:hover {
+  color: #0bd5f8;
+}
+
+body main section.event1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  transition: all 0.1s ease;
+}
+body main section.event1 section.table {
+  padding: 2rem;
+  border: 2px solid gray;
+  /* line-height: 3rem;  */
+}
+body main section.event1 section.table h2 {
+  text-align: center;
+}
+body main section.event1 section.table table {
+  border-collapse: collapse;
+}
+body main section.event1 section.table table tr {
+  border-bottom: 2px solid gray;
+  padding: 2rem;
+}
+body main section.event1 section.table table tr #a1 {
+  color: white;
+  background-color: #0b9df8;
+  padding: 0.25rem 0.5rem;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 2rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+body main section.event1 section.table table tr #a1:hover {
+  transform: scale(1.2);
+}
+body main section.event1 section.table table tr #a2 {
+  color: white;
+  background-color: #cd201f;
+  padding: 0.25rem 0.5rem;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 2rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+body main section.event1 section.table table tr #a2:hover {
+  transform: scale(1.2);
+}
+
+body main section.event2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+body main section.event2 section.table {
+  padding: 2rem;
+  border: 2px solid gray;
+  /* line-height: 3rem;  */
+}
+body main section.event2 section.table h2 {
+  text-align: center;
+}
+body main section.event2 section.table table {
+  border-collapse: collapse;
+}
+body main section.event2 section.table table tr {
+  border-bottom: 2px solid gray;
+  padding: 2rem;
+}
+body main section.event2 section.table table tr a {
+  color: black;
+  text-decoration: none;
+  transition: all 0.1s ease;
+}
+body main section.event2 section.table table tr a:hover {
+  color: #0bd5f8;
+}
+
+.title {
+  font-size: 1.25rem;
+}/*# sourceMappingURL=style2.css.map */
